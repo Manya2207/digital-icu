@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./assets/logobicu.svg";
+import backArrow from "./assets/backArrow.svg";
+import "./App.css";
+import Form from "./components/Form/Form";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="inner-container">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+        <div className="back-button">
+          <span>
+            <img src={backArrow} className="back-arrow" alt="arrow" />
+          </span>
+          Add Hospital
+        </div>
+
+        <div>
+          {" "}
+          <Form />{" "}
+        </div>
+      </div>
     </div>
   );
 }
