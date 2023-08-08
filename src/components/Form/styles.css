@@ -1,12 +1,12 @@
 .form-container {
-  border-radius: 8px;
-  background: #525252;
   box-shadow: 0px 1px 8px 0px rgba(20, 46, 110, 0.1);
   width: 100%;
-  padding: 41px 32px 48px 32px;
   margin-top: 1em;
 }
 
 .form {
+  background: #525252;
+  border-radius: 8px;
   width: 100%;
+  padding: 2em;
 }
