@@ -6,7 +6,7 @@
 }
 
 .inner-container {
-  padding: 2em 1.5em;
+  padding: 2em 1em;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
